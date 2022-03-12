@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hacer Pedido</title>
+        <style>
+*{
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+             }
+
+             body{
+                 background-color: #fffad5;
+             }
+
+            h1{ color: #d29274;
+                text-align: center;
+             font-size: 1cm;
+             text-decoration-color: beige;}
+
+            h5{ color: #e76326;
+                text-align: left;
+                text-decoration-color: beige;}
+
+            h1, h5{
+                font-weight: bold; 
+            }
+
+        </style>  
+
+    </head>
+    <body>
+        <h1>Ingresar Datos para Pedido</h1>
+
+        <form action = "hacer pedido.js">
+            <label for="Nombre">Escribe tu nombre</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+
+            <br></br>
+
+            <label for="Tell">Escribe tu Telefono</label><br>
+            <input type="tel" id="tell" name="tell" maxlength="10" placeholder="Telefono">
+            
+            <br><br>
+
+            <label for="correo">Escribe tu Correo</label><br>
+            <input type="email" id="correo" name="correo" placeholder="Correo"> 
+            
+            <br></br>
+            
+            <h5>Adornos para Pasteless</h5>
+             <input type="checkbox" id="topping1" name="topping1" value="Vela de Numero">
+             <label for="topping1">Vela de Numero</label><br>
+             <input type="checkbox" id="topping2" name="topping2" value="Vela de Figura">
+             <label for="topping2">Vela de Figura</label><br>
+             <input type="checkbox" id="topping2" name="topping2" value="Velas Clasicas">
+             <label for="topping2">Velas Clasicas</label><br>
+             <input type="checkbox" id="topping3" name="topping3" value="Dibujo sobre pastel">
+             <label for="topping3">Dibujo sobre pastel</label><br></br>
+
+           
+             <h5>Sabores Extras</h5>
+            <input type="checkbox" id="topping1" name="topping1" value="Vainilla">
+            <label for="topping1">Vainilla</label><br>
+            <input type="checkbox" id="topping2" name="topping2" value="Fresa">
+            <label for="topping2">Fresa</label><br>
+            <input type="checkbox" id="topping2" name="topping2" value="Moka">
+            <label for="topping2">Moka</label><br>
+            <input type="checkbox" id="topping3" name="topping3" value="Yogurt">
+            <label for="topping3">Yogurt</label><br><br>
+
+            <input type="reset">
+            <input type="submit">
+
+
+        </form>
+
+    </body>
